@@ -75,7 +75,7 @@ const Header:React.FC<HeaderProps> = ({
                         whileDrag={{scale:1.8}}
                         whileHover={{scale:1.2}}
                         className="rounded-full cursor-pointer"
-                        onDoubleClick={()=> window.open("https://portfolio-ndt.vercel.app/", "_blank")}/>     
+                        onDoubleClick={()=> window.open("https://portfolio-ndt-3d.vercel.app/", "_blank")}/>     
                     {user? ( 
                         <div className="flex gap-x-4 items-center">
                             <Button onClick={handleLogout} 
